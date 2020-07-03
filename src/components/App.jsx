@@ -4,6 +4,7 @@ import emojipedia from "../emojipedia";
 
 function CreateEmoji(emojiterm) {
   return (
+
     <Entry
       id={emojiterm.id}
       key={emojiterm.id}
@@ -11,6 +12,7 @@ function CreateEmoji(emojiterm) {
       name={emojiterm.name}
       meaning={emojiterm.meaning}
     />
+
   );
 }
 
